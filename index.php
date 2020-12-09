@@ -31,7 +31,7 @@
 				
 			</div>
 		</section>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar-fixed navbar-expand-lg navbar-light bg-light">
 			
 			<div class="collapse show navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
@@ -83,126 +83,145 @@
 			
 
 			<div class="myProjets reveal">
-				<img src="projet/videotheque/index.PNG">
+				<img src="projet/videotheque/index.PNG" class="img">
+				<div class="nameProjet reveal">
+					<div class="textHover">
+						<a href="projet/videotheque/videotheque.html"  target=" ">
+							Videotheque
+							<br /> 
+							<br />
+							Projet HTML / CSS 
+							<br /><br />
+							Ce site contient différentes pages avec des catégories d'animé
+							<br /><br />
+						</a>
+					</div>
+					
+				</div>
 			</div>
-			<div class="nameProjet reveal">
-				<a href="projet/videotheque/videotheque.html"  target=" ">
-					Videotheque
-					<br /> 
-					<br />
-					Projet HTML / CSS 
-					<br /><br />
-					Ce site contient différentes pages avec des catégories d'animé
-					<br /><br />
-				</a>
-			</div>
+			
 
 			<br />
 
 			<div class="myProjets reveal">
-				<img src="projet/fansite/index.PNG" width="50%">
+				<img src="projet/fansite/index.PNG" class="img">
+				<div class="nameProjet reveal ">
+					<div class="textHover">
+						<a href="projet/fansite/fansite.html"  target=" ">
+							FanSite
+							<br /><br />
+							Projet HTML / CSS 
+							<br /><br />
+							Pour ce projet on a fait un FanSite basé sur le jeux vidéo League Of Legend.
+							<br />
+							On y retrouve une page actualité, une page sur les événements en cours et pleins d'autres.
+							<br /><br />
+						</a>
+					</div>
+					
+				</div>
 			</div>
 
-			<div class="nameProjet reveal ">
-				<a href="projet/fansite/fansite.html"  target=" ">
-					FanSite
-					<br /><br />
-					Projet HTML / CSS 
-					<br /><br />
-					Pour ce projet on a fait un FanSite basé sur le jeux vidéo League Of Legend.
-					<br />
-					On y retrouve une page actualité, une page sur les événements en cours et pleins d'autres.
-					<br /><br />
-				</a>
-			</div>
+			
 			
 			<br />
 
 			<div class="myProjets reveal">
-				<img src="projet/forum/index.PNG" width="50%">
+				<img src="projet/forum/index.PNG" class="img">
+				<div class="nameProjet reveal ">
+					<div class="textHover">
+						<a href="projet/forum/index.php" target=" ">
+							Anime Forum
+							<br><br />
+							Projet HTML / CSS / PHP 
+							<br />
+							Un site présentant un Forum d'animé.
+							<br />
+							Possibilité de s'inscire et de se connecter pour pouvoir créer des threads et y laisser des messages.
+							<br /><br />
+						</a>
+					</div>
+					
+
+				</div>
 			</div>
 
-			<div class="nameProjet reveal ">
-
-				<a href="projet/forum/index.php" target=" ">
-					Anime Forum
-					<br><br />
-					Projet HTML / CSS / PHP 
-					<br />
-					Un site présentant un Forum d'animé.
-					<br />
-					Possibilité de s'inscire et de se connecter pour pouvoir créer des threads et y laisser des messages.
-					<br /><br />
-				</a>
-
-			</div>
+			
 
 			<br />
 
 			<div class="myProjets reveal">
-				<img src="projet/camping/index.PNG" width="50%">
+				<img src="projet/camping/index.PNG" class="img">
+				<div class="nameProjet reveal">
+					<div class="textHover">
+						<a href="projet/camping/index.php" target=" ">
+							Les Happy Sardines
+							<br><br />
+
+							Projet HTML / CSS / PHP 
+							<br />
+							Un site de réservation de camping
+							<br />
+							Possibilité de s'inscrire  et de se connecter pour pouvoir réserver une place de camping.
+							<br />
+						</a>
+					</div>
+					
+
+				</div>
 			</div>
 
-			<div class="nameProjet reveal">
-				<a href="projet/camping/index.php" target=" ">
-					Les Happy Sardines
-					<br><br />
-
-					Projet HTML / CSS / PHP 
-					<br />
-					Un site de réservation de camping
-					<br />
-					Possibilité de s'inscrire  et de se connecter pour pouvoir réserver une place de camping.
-					<br />
-				</a>
-
-			</div>
+			
 
 			<br />
 
 			<div class="myProjets reveal" >
-				<img src="projet/reservation-salle/index.PNG" width="50%">
+				<img src="projet/reservation-salle/index.PNG" class="img">
+				<div class="nameProjet reveal">
+					<div class="textHover">
+						<a href="projet/reservation-salle/index.php" target=" ">
+							Réservation Salle
+							<br /><br />
+
+							Projet HTML / CSS / PHP 
+							<br />
+							Un site de réservation de salles.
+							<br />
+							Possibilité de s'inscrire et de se connecter pour pouvoir réserver une salle.
+							<br />
+							Le site comprend aussi un planning pour voir les dates déja réservées par les autres utilisateurs.
+						</a>
+					</div>
+
+					
+
+
+				</div>
 			</div>
 
-			<div class="nameProjet reveal">
-
-
-				<a href="projet/reservation-salle/index.php" target=" ">
-					Réservation Salle
-					<br /><br />
-
-					Projet HTML / CSS / PHP 
-					<br />
-					Un site de réservation de salles.
-					<br />
-					Possibilité de s'inscrire et de se connecter pour pouvoir réserver une salle.
-					<br />
-					Le site comprend aussi un planning pour voir les dates déja réservées par les autres utilisateurs.
-				</a>
-
-
-			</div>
 
 			<br />
 
 			<div class="myProjets reveal">
-				<img src="projet/boutique/boutique.PNG" width="50%">
+				<img src="projet/boutique/boutique.PNG" class="img">
+				<div class="nameProjet reveal ">
+					<div class="textHover">
+						<a href="projet/boutique/index.php" target=" ">
+							Unlucky Market
+							<br /> <br />
+							Projet HTML / CSS / PHP
+							<br /><br />
+							Boutique de jeux video en ligne
+							<br />
+							Contient differente fonctionnalité qui sont propre a une boutique en ligne ( Panier, Barre de recherche,  etc.... ).
+						</a>
+					</div>
+
+					
+
+				</div>
 			</div>
 
-			<div class="nameProjet reveal ">
-
-
-				<a href="projet/boutique/index.php" target=" ">
-					Unlucky Market
-					<br /> <br />
-					Projet HTML / CSS / PHP
-					<br /><br />
-					Boutique de jeux video en ligne
-					<br />
-					Contient differente fonctionnalité qui sont propre a une boutique en ligne ( Panier, Barre de recherche,  etc.... ).
-				</a>
-
-			</div>
 			<br />
 
 		</section>
@@ -222,26 +241,25 @@
 			</p>
 
 			<section id="contactMe">
-				<form method="post" action="">
+				<form method="post" action="" id="formulaireContact">
 					<label>Votre e-mail</label>
 					<br />
-					<input type="email" name="email" required>
+					<input type="email" name="email" required id="email">
 					<br />
 
 					<label>Sujet</label>
 					<br />
-					<input type="text" name="sujet" required>
+					<input type="text" name="sujet" required id="sujet">
 					<br />
 					
 					<label>Message</label>
 					<br />
-					<textarea name="message" style="resize: none;" rows="8" cols="25"></textarea>
+					<textarea name="message" style="resize: none;" rows="8" cols="25" id="message"></textarea>
 					<br />
 					<br />
 
 					<input type="submit" name="send">
 				</form>
-
 				<?php
 				if (isset($_POST['send'])) 
 				{
@@ -264,10 +282,16 @@
 								echo '<p>Erreur.</p>';
 							}
 						}
+						$_POST['email'] = '';
+						$_POST['suejt'] = '';
+						$_POST['message'] = '';
+
 					}
 				}
 
 				?>
+
+				
 			</section>
 			
 		</section>
@@ -275,6 +299,7 @@
 		
 	</main>
 	<script>
+
 		const ratio = .1
 
 		const options = {
