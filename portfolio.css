@@ -1,0 +1,348 @@
+html{
+	height: 100%;
+	scroll-behavior: smooth;
+	margin: 0;
+}
+
+body{
+	height: 100%;
+	margin: 0;
+}
+
+.titre{
+	text-align: center;
+	background-color: rgb(0, 0, 0, 0.5);
+	font-size: 30px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border : solid 2px;
+    border-radius: 30px;
+}
+
+
+/*---------------HEADER---------------*/
+/*---------------HEADER---------------*/
+/*---------------HEADER---------------*/
+/*---------------HEADER---------------*/
+/*---------------HEADER---------------*/
+
+
+
+/*---------------FOOTER---------------*/
+/*---------------FOOTER---------------*/
+/*---------------FOOTER---------------*/
+/*---------------FOOTER---------------*/
+/*---------------FOOTER---------------*/
+
+footer{
+	width: 100%;
+	bottom: 0;
+}
+
+/*---------------INDEX---------------*/
+/*---------------INDEX---------------*/
+/*---------------INDEX---------------*/
+/*---------------INDEX---------------*/
+/*---------------INDEX---------------*/
+
+/*----Presentation----*/
+/*----Presentation----*/
+
+#presentation{
+	width: 100%;
+	background-color: #FEA593;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#myPresentation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	background-color: rgb(0, 0, 0, 0.5);
+    box-shadow: 20px 20px white ;
+    border-radius: 20px;
+}
+
+#photoPresentation{
+	width: 10%;   
+}
+
+@media screen and (max-width: 768px) { 
+	#presentation{
+		width: 100%;
+		background-color: #FEA593;
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	#photoPresentation{
+		width: 30%;   
+		margin: 0 auto;
+	}
+}
+
+
+
+
+/*----Competence----*/
+/*----Competence----*/
+
+#competence{
+	
+	margin : 0 auto;
+	background-color: #FEA593;    
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+
+#myCompetence{
+	color: white;
+	width: 50%;
+	height: 300px;
+	text-align: center;
+	border-style: solid;
+	border-color: red;
+	
+}
+
+#nextCompetence{
+	color: white;
+	width: 50%;
+	height: 300px;
+	text-align: center;
+	border-style: solid;
+	border-color: blue;
+	
+}
+
+.imgCompetence{
+		width: 130px;
+}
+
+
+
+@media screen and (max-width: 768px) { 
+	#competence{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#myCompetence{
+		width: 70%;
+	}
+
+	#nextCompetence{
+		width: 70%;
+	}
+
+	.imgCompetence{
+		width: 60px;
+	} 
+}
+
+@media screen and (min-width: 770px) and (max-width: 991px) { 
+	#competence{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#myCompetence{
+		width: 50%;
+	}
+
+	#nextCompetence{
+		width: 50%;
+	}
+
+	.imgCompetence{
+		width: 80px;
+	} 
+}
+
+@media screen and (min-width: 1000px) { 
+	#competence{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#myCompetence{
+		width: 50%;
+	}
+
+	#nextCompetence{
+		width: 50%;
+	}
+
+	.imgCompetence{
+		width: 80px;
+	} 
+}
+
+
+
+
+
+/*----Projet----*/
+/*----Projet----*/
+
+#projets{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+ 	align-items: center;
+    
+   
+}
+
+
+#projets img {
+    width: 20%;
+    
+}
+
+#projets img:hover{
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+
+
+.myProjets{
+    background-color: #FEA593;
+    width: 100%!important;
+    height: 300px;
+   
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nameProjet{
+	width: 50%;
+	text-align: center;
+}
+
+
+#projets a{
+	font-size: 30px;
+}
+
+.nameProjet p{
+	width: 50%;
+	text-align: center;
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+
+
+
+@media screen and (max-width: 768px) { 
+	.nameProjet{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+	#projets img {
+		width: 80%;
+
+	}
+	.myProjets{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		height: 600px;
+	} 
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+		.nameProjet{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+	#projets img {
+		width: 80%;
+
+	}
+	.myProjets{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		height: 600px;
+	} 
+}
+
+
+
+
+
+
+
+
+
+/*----Contact----*/
+/*----Contact----*/
+
+#contact{
+    height: 600px;
+	text-align: center;
+	font-size: 30px;
+    position: relative;
+    background-color: #342D2C;
+}
+
+#myContact{
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    padding: 5%;
+}
+
+#myContact a{
+    color: white;
+}
+
+#reseaux{
+	display: flex-wrap;
+}
+
+
+
+
+.reveal{
+	opacity: 0;
+	transform: translateY(-30px);
+}
+
+.revealVisible{
+	opacity: 1;
+	transform: translateY(0);
+	transition: .5s;
+}

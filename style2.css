@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+html, body, main {
+	margin: 0;
+}
+
+
+
+#first{
+	height: 940px;
+	background-image: url(img/back1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#name{
+	height: 940px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 6vh;
+	font-family: 'Lobster', cursive;
+	color: white;
+  	text-shadow: 2px 2px 4px #000000;
+}
+
+#info{
+	font-family: 'Roboto', sans-serif;
+	font-size: 3vh;
+	color: #FFFFFF;
+	background-color: rgb(0, 0, 0, 0.5);
+	text-shadow: 0 0 10px #FFFFFF;
+}
+
+#doubleFleche{
+	width: 10%;
+}
+
+#competences{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#allCompetence{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+#textCompetence{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	float: right;
+	text-align: center;
+	font-size: 2vh;
+	background-color: black;
+	color: white;   
+}
+
+#titleCompetence{
+	text-align: center;
+	height: 100px;
+	font-size: 3vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#flecheBas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ 
+#titleProjet{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100px;
+	font-size: 3vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#projets{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+.myProjets{
+	display: flex;
+	width: 50%;
+	
+	height: 300px;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.nameProjet{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	text-align: center;
+}
+
+#contact{
+	background-color: blue;
+	color: white;
+}
+
+#titleContact{
+	text-align: center;
+}
+
+#contactMe{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+.reveal{
+	opacity: 0;
+	transform: translateY(-30px);
+}
+
+.revealVisible{
+	opacity: 1;
+	transform: translateY(0);
+	transition: 1s;
+}
