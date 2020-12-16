@@ -23,7 +23,7 @@
 				<br/>
 				<p id="info">Actuellement en formation à LaPlateforme_, je suis à la recherche d'une alternance</p>
 				<br/>
-				<a href="#navbarNav"><img id="doubleFleche" src="img/doublefleche.png" ></a>
+				
 
 			</div>
 
@@ -31,15 +31,15 @@
 				
 			</div>
 		</section>
-		<nav class="navbar-fixed navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 			
 			<div class="collapse show navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#competence">Competence</a>
+						<a class="nav-link" href="#competences">Competences</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#projets">Projets</a>
@@ -52,29 +52,44 @@
 			</div>
 		</nav>
 
+		<br />
+
 		
 		<div id="titleCompetence" class="reveal">
-			Mes competences
+			<div class="title">
+				Mes competences
+			</div>
+			
 			<br />
-
 		</div>
 
 		<section id="competences">
-			<section id="allCompetence" class="reveal">
-				<img src="img/competence.jpg">
-			</section>
-			<section id="textCompetence" class="reveal">
-				Voici mes competences actuelles.
-				<br />
-				Préférence pour le back-end même si me je debrouille bien en front-end
+			<div>
+				<img src="img/html.png" width="200">
+			</div>
 
-			</section>
+			<div>
+				<img src="img/css.png" width="150">
+			</div>
+
+			<div>
+				<img src="img/php.png" width="200">
+			</div>
+
+			<div>
+				<img src="img/mysql.png" width="200">
+			</div>
+
+			<div>
+				<img src="img/bootstrap.png" width="200">
+			</div>
 		</section>
 
 		<div id="titleProjet" class="reveal">
-			Mes Projets
-			<br />
-
+			<div class="title">
+				Mes Projets
+			</div>
+			
 		</div>
 
 		
@@ -225,20 +240,23 @@
 			<br />
 
 		</section>
+		<br />
+
+		<div id="titleContact" class="reveal">
+			<div class="title">
+				Me contacter
+			</div>
+		
+
+		</div>
 
 		<section id="contact">
-			<p id="titleContact">
-				Me Contacter
-				<br />
-				Par Téléphone au
-				<br />
-				06-95-96-97-27
-				<br />
-				ou
-				<br />
-				Par Mail
-				<br />
-			</p>
+			<div id="infoContact">
+				<div>
+					<img src="img/telephone.png" width="20">06-95-96-97-27
+					<img src="img/mail.png" width="30">azzouz.mohamed238@gmail.com
+				</div>			
+			</div>
 
 			<section id="contactMe">
 				<form method="post" action="" id="formulaireContact">
