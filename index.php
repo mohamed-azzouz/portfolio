@@ -103,12 +103,7 @@
 					<div class="textHover">
 						<a href="projet/videotheque/videotheque.html"  target=" ">
 							Videotheque
-							<br /> 
-							<br />
-							Projet HTML / CSS 
-							<br /><br />
-							Ce site contient différentes pages avec des catégories d'animé
-							<br /><br />
+							
 						</a>
 					</div>
 					
@@ -123,14 +118,7 @@
 				<div class="nameProjet reveal ">
 					<div class="textHover">
 						<a href="projet/fansite/fansite.html"  target=" ">
-							FanSite
-							<br /><br />
-							Projet HTML / CSS 
-							<br /><br />
-							Pour ce projet on a fait un FanSite basé sur le jeux vidéo League Of Legend.
-							<br />
-							On y retrouve une page actualité, une page sur les événements en cours et pleins d'autres.
-							<br /><br />
+							FanSite							
 						</a>
 					</div>
 					
@@ -147,13 +135,6 @@
 					<div class="textHover">
 						<a href="projet/forum/index.php" target=" ">
 							Anime Forum
-							<br><br />
-							Projet HTML / CSS / PHP 
-							<br />
-							Un site présentant un Forum d'animé.
-							<br />
-							Possibilité de s'inscire et de se connecter pour pouvoir créer des threads et y laisser des messages.
-							<br /><br />
 						</a>
 					</div>
 					
@@ -171,14 +152,6 @@
 					<div class="textHover">
 						<a href="projet/camping/index.php" target=" ">
 							Les Happy Sardines
-							<br><br />
-
-							Projet HTML / CSS / PHP 
-							<br />
-							Un site de réservation de camping
-							<br />
-							Possibilité de s'inscrire  et de se connecter pour pouvoir réserver une place de camping.
-							<br />
 						</a>
 					</div>
 					
@@ -196,15 +169,6 @@
 					<div class="textHover">
 						<a href="projet/reservation-salle/index.php" target=" ">
 							Réservation Salle
-							<br /><br />
-
-							Projet HTML / CSS / PHP 
-							<br />
-							Un site de réservation de salles.
-							<br />
-							Possibilité de s'inscrire et de se connecter pour pouvoir réserver une salle.
-							<br />
-							Le site comprend aussi un planning pour voir les dates déja réservées par les autres utilisateurs.
 						</a>
 					</div>
 
@@ -223,12 +187,6 @@
 					<div class="textHover">
 						<a href="projet/boutique/index.php" target=" ">
 							Unlucky Market
-							<br /> <br />
-							Projet HTML / CSS / PHP
-							<br /><br />
-							Boutique de jeux video en ligne
-							<br />
-							Contient differente fonctionnalité qui sont propre a une boutique en ligne ( Panier, Barre de recherche,  etc.... ).
 						</a>
 					</div>
 
@@ -246,7 +204,7 @@
 			<div class="title">
 				Me contacter
 			</div>
-		
+
 
 		</div>
 
@@ -294,12 +252,16 @@
 							if($retour)
 							{
 								echo '<p>Votre message a été envoyé.</p>';
+								$_POST['email'] = '';
+								$_POST['suejt'] = '';
+								$_POST['message'] = '';
 							}
 							else
 							{
 								echo '<p>Erreur.</p>';
 							}
 						}
+						
 						$_POST['email'] = '';
 						$_POST['suejt'] = '';
 						$_POST['message'] = '';
